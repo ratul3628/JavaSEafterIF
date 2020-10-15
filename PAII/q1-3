@@ -1,0 +1,36 @@
+
+package pa2q1;
+
+/**
+ *
+ * @author RATUL
+ */
+class Sample{
+    final Sample(){
+        
+    }
+     abstract static void meth(){
+        
+    }
+     
+     void meth1(){
+         
+     }
+}
+class child extends Sample{
+    static meth1(){
+        
+    }
+}
+public class PA2q1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Sample obj=new Sample();
+    }
+    
+}
