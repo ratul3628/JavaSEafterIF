@@ -1,0 +1,63 @@
+
+package studentextension;
+
+import java.util.Scanner;
+class Student{
+        String sub[]=new String[3];
+        int internal[]=new int[3];
+        int theory[]=new int[3];
+        
+        void getdata()
+    {
+        Scanner sc=new Scanner(System.in);
+        int i;
+        
+        for(i=0;i<2;i++)
+        {
+            System.out.println("Enter the subject:");
+            sub[i]=sc.next();
+            System.out.println("Enter the internal marks :");
+            internal[i]=sc.nextInt();
+            System.out.println("Enter the theory marks :");
+            theory[i]=sc.nextInt();        
+        }
+        
+        
+    }
+    void show()
+    {
+        int i;
+        for(i=0;i<2;i++)
+        {
+            System.out.println("Subject:"+sub[i]);
+            System.out.println("Internal marks:"+internal[i]);
+            System.out.println("Theory marks:"+theory[i]);
+            System.out.println("Grandtotal:"+(internal[i]+theory[i]));
+        }
+       
+    }
+   
+}
+
+public class Studentextension {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+         
+       Student std1=new Student();
+       System.out.println("Enter the data for 1st student:");
+       std1.getdata();
+       System.out.println("Information for 1st stud:");
+       std1.show();
+       Student std2=new Student();
+       System.out.println("Enter the data for 2nd student:");
+       std2.getdata();
+       System.out.println("Information for 2nd stud:");
+      std2.show();
+       
+    }
+    
+}
