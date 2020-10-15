@@ -1,0 +1,30 @@
+package pa2q2;
+
+class Student{
+    double roll;
+    String name,stream,cllg;
+    
+    Student(double roll,String name , String stream,String cllg){
+        this.roll=roll;
+        this.name=name;
+        this.stream=stream;this.cllg=cllg;
+    }
+    
+    void display(){
+        System.out.println("Name:"+name);
+        System.out.println("Roll:"+roll);
+        System.out.println("Stream:"+stream);
+        System.out.println("College:"+cllg);
+    }
+   
+}
+public class PA2q2 {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Student ob=new Student(1234,"ABC","CS","TIU");
+        ob.display();
+    }
+    
+}
