@@ -1,0 +1,56 @@
+
+interface I1{
+    void f1();
+    void f2();
+}
+
+interface I2{
+    void f3();
+    void f4();
+}
+
+interface I3 extends I1,I2{
+    void f5();
+}
+
+class concrete {
+    concrete(){
+        System.out.println("question 3");
+    }
+}
+
+class derived extends concrete implements I3{
+   @Override
+   public void f1(){
+        System.out.println("function 1");
+    }
+   @Override
+   public void f2(){
+        System.out.println("function 2");
+    }
+   @Override
+   public void f3(){
+        System.out.println("function 3");
+    }
+   @Override
+   public void f4(){
+        System.out.println("function 4");
+    }
+   @Override
+   public void f5(){
+        System.out.println("function 5");
+    }
+}
+public class Day10q3  {
+
+   
+    public static void main(String[] args) {
+      derived obj = new derived();
+      obj.f1();
+      obj.f2();
+      obj.f3();
+      obj.f4();
+      obj.f5();
+    }
+    
+}
