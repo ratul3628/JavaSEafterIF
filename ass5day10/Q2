@@ -1,0 +1,28 @@
+
+interface IntA
+{
+    void f1();
+}
+
+interface IntB
+{
+    void f1();
+}
+
+class samp implements IntA, IntB{
+  
+    @Override
+    public void f1(){
+        System.out.println("Java assignment 5 day 10");
+    }
+}
+public class D10q2 {
+
+    
+    public static void main(String[] args) {
+        
+        samp s=new samp();
+        s.f1();
+    }
+    
+}
