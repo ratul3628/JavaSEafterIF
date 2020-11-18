@@ -1,0 +1,11 @@
+
+package Ptwo;
+
+
+public class child {
+   public void f1()
+{
+System.out.println("Function of Sub:");
+}
+
+}
