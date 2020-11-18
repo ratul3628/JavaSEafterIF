@@ -1,0 +1,16 @@
+
+package p1.p2;
+interface I2
+{
+void f2();
+}
+
+
+public class B  implements I2{
+    @Override
+    public void f2()
+{
+System.out.println("Function of I2");
+}
+
+}
