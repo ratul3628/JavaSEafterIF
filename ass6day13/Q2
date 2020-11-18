@@ -1,0 +1,11 @@
+import Pone.P1T1;
+import Ptwo.child;
+public class Q2 {
+    public static void main(String args[]){
+    P1T1 obj=new P1T1();
+    obj.f1();
+    
+    child obj2=new child();
+    obj2.f1();
+    }
+}
