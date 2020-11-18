@@ -1,0 +1,31 @@
+
+package Pone;
+
+public class P1T1 {
+    void f1()
+{
+System.out.println("P1T1 ");
+}
+}
+class Sub extends P1T1
+{
+void f1()
+{
+System.out.println(" Sub of P1T1");
+}
+
+}
+
+class test
+{
+public static void main(String args[])
+{
+P1T1 obj1=new P1T1();
+obj1.f1();
+
+Sub obj2=new Sub();
+
+obj2.f1(); 
+
+}
+}
