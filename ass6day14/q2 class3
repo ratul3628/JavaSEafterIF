@@ -1,0 +1,27 @@
+
+package ass6day14.pkgTwo;
+
+import ass6day14.pkgOne.I1;
+
+/**
+ *
+ * @author RATUL
+ */
+public class class3 implements I1 {
+
+    @Override
+    public void meth1() {
+        System.out.println("1st method for interface"); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void meth2() {
+        System.out.println("2nd method for interface"); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void meth3() {
+        System.out.println("3rd method for interface"); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+}
