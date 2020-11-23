@@ -1,0 +1,25 @@
+
+package ass6day14;
+
+import ass6day14.pkgTwo.class3;
+import pTwo.class2;
+
+/**
+ *
+ * @author RATUL
+ */
+public class Ass6day14 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        class2 obj1 = new class2();      
+        obj1.meth2();
+        class3 obj2 = new class3(); 
+        obj2.meth1();
+        obj2.meth2();
+        obj2.meth3();
+    }   
+}
