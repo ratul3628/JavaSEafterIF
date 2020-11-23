@@ -1,0 +1,12 @@
+
+package ass6day14.pkgOne;
+
+/**
+ *
+ * @author RATUL
+ */
+public interface I1 {
+    void meth1();
+    void meth2();
+    void meth3();    
+}
