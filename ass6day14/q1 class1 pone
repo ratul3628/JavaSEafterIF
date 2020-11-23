@@ -1,0 +1,16 @@
+
+package pOne;
+
+/**
+ *
+ * @author RATUL
+ */
+public class class1 {
+  public int exe=89;
+      
+  public void meth1(){
+        System.out.println("Class 1 for 1st package"+exe);
+         
+    }
+   
+}
