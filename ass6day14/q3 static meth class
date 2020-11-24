@@ -1,0 +1,14 @@
+
+package ass6day14.p3;
+
+/**
+ *
+ * @author RATUL
+ */
+public class class4 {
+   public static int max=90;
+   public static void meth4()
+   {
+       System.out.println("method for static method"+max);
+   }
+}
