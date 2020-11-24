@@ -1,0 +1,17 @@
+
+package ass6day14.p3;
+
+import static ass6day14.p3.class4.max;
+import static ass6day14.p3.class4.meth4;
+
+/**
+ *
+ * @author RATUL
+ */
+public class class5 {
+   public void meth5()
+    {
+        System.out.println("non static method calld here"+max);
+        meth4();
+    }
+}
