@@ -3,6 +3,7 @@ package ass6day14;
 
 import ass6day14.pkgTwo.class3;
 import pTwo.class2;
+import ass6day14.p3.class5;
 
 /**
  *
@@ -21,5 +22,7 @@ public class Ass6day14 {
         obj2.meth1();
         obj2.meth2();
         obj2.meth3();
+        class5 obj3 = new class5(); 
+        obj3.meth5();
     }   
 }
