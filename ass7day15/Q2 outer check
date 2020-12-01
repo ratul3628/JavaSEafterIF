@@ -1,0 +1,30 @@
+
+package d15q2.outer.check;
+
+/**
+ *
+ * @author RATUL
+ */
+
+ private class outer
+{
+    class inner
+    {
+        public void innerDisplay()
+        {
+            System.out.println(" inner class  ");
+        }
+    }
+}
+public class D15q2OuterCheck {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        outer.inner o1= new outer().new inner();
+        o1.innerDisplay();
+    }
+    
+}
