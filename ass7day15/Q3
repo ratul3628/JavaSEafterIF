@@ -1,0 +1,46 @@
+
+package d15q3;
+
+class O1
+{
+    public void f1()
+    {
+        class Inn
+        {
+            public void Innf1()
+            {
+                class Inn2
+                {
+                     public void inner1Display()
+        {
+                    System.out.println("  class inn2 inside method Innf1() ");
+        }
+                }
+              Inn2 obj1 =new Inn2();
+              obj1.inner1Display();
+            }
+        }
+        
+        Inn obj3= new Inn();
+        obj3.Innf1();
+    }
+
+   
+}
+/**
+ *
+ * @author RATUL
+ */
+public class D15q3 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        O1 obj2 = new O1();
+        obj2.f1();
+       
+    }
+    
+}
