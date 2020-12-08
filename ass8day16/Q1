@@ -1,0 +1,29 @@
+
+package d16q1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author RATUL
+ */
+public class D16q1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {       
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the string");
+        String str=sc.nextLine();
+        char [] sarr= str.toCharArray();
+         
+         for(char samp:sarr)
+         {
+             System.out.println(samp);
+         }
+        
+        
+    }
+    
+}
